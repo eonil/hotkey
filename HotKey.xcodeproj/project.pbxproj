@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4506EC65214E299200C5238A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC64214E299200C5238A /* AppDelegate.swift */; };
+		4506EC67214E299200C5238A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC66214E299200C5238A /* ViewController.swift */; };
+		4506EC69214E299400C5238A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4506EC68214E299400C5238A /* Assets.xcassets */; };
+		4506EC6C214E299400C5238A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4506EC6A214E299400C5238A /* Main.storyboard */; };
+		4506EC9C214E2A7900C5238A /* libHotKey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4506EC92214E29F600C5238A /* libHotKey.a */; };
+		4506EC9D214E2AD400C5238A /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC4E214CAF2200C5238A /* Report.swift */; };
+		4506EC9E214E2AD400C5238A /* Audit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC4C214C943300C5238A /* Audit.swift */; };
+		4506EC9F214E2AD400C5238A /* KeyCombo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC52214CB57700C5238A /* KeyCombo.swift */; };
+		4506ECA0214E2AD400C5238A /* HotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EC54214CB79B00C5238A /* HotKey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4506EBE0214BF59000C5238A /* HotKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyTests.swift; sourceTree = "<group>"; };
+		4506EBE2214BF59000C5238A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4506EC4C214C943300C5238A /* Audit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audit.swift; sourceTree = "<group>"; };
+		4506EC4E214CAF2200C5238A /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		4506EC52214CB57700C5238A /* KeyCombo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCombo.swift; sourceTree = "<group>"; };
+		4506EC54214CB79B00C5238A /* HotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKey.swift; sourceTree = "<group>"; };
+		4506EC58214D024300C5238A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4506EC62214E299200C5238A /* HotKeyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotKeyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4506EC64214E299200C5238A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4506EC66214E299200C5238A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4506EC68214E299400C5238A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4506EC6B214E299400C5238A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4506EC6D214E299400C5238A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4506EC6E214E299400C5238A /* HotKeyDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotKeyDemo.entitlements; sourceTree = "<group>"; };
+		4506EC92214E29F600C5238A /* libHotKey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHotKey.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4506EC5F214E299100C5238A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506EC9C214E2A7900C5238A /* libHotKey.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4506EC8F214E29F600C5238A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4506EBC1214BF58E00C5238A = {
+			isa = PBXGroup;
+			children = (
+				4506EC58214D024300C5238A /* README.md */,
+				4506EBCC214BF58E00C5238A /* HotKey */,
+				4506EBDF214BF59000C5238A /* HotKeyTests */,
+				4506EC63214E299200C5238A /* HotKeyDemo */,
+				4506EBCB214BF58E00C5238A /* Products */,
+				4506EC9B214E2A7900C5238A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4506EBCB214BF58E00C5238A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4506EC62214E299200C5238A /* HotKeyDemo.app */,
+				4506EC92214E29F600C5238A /* libHotKey.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4506EBCC214BF58E00C5238A /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				4506EC52214CB57700C5238A /* KeyCombo.swift */,
+				4506EC54214CB79B00C5238A /* HotKey.swift */,
+				4506EC4C214C943300C5238A /* Audit.swift */,
+				4506EC4E214CAF2200C5238A /* Report.swift */,
+			);
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+		4506EBDF214BF59000C5238A /* HotKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				4506EBE0214BF59000C5238A /* HotKeyTests.swift */,
+				4506EBE2214BF59000C5238A /* Info.plist */,
+			);
+			path = HotKeyTests;
+			sourceTree = "<group>";
+		};
+		4506EC63214E299200C5238A /* HotKeyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4506EC64214E299200C5238A /* AppDelegate.swift */,
+				4506EC66214E299200C5238A /* ViewController.swift */,
+				4506EC68214E299400C5238A /* Assets.xcassets */,
+				4506EC6A214E299400C5238A /* Main.storyboard */,
+				4506EC6D214E299400C5238A /* Info.plist */,
+				4506EC6E214E299400C5238A /* HotKeyDemo.entitlements */,
+			);
+			path = HotKeyDemo;
+			sourceTree = "<group>";
+		};
+		4506EC9B214E2A7900C5238A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4506EC90214E29F600C5238A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4506EC61214E299100C5238A /* HotKeyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4506EC85214E299500C5238A /* Build configuration list for PBXNativeTarget "HotKeyDemo" */;
+			buildPhases = (
+				4506EC5E214E299100C5238A /* Sources */,
+				4506EC5F214E299100C5238A /* Frameworks */,
+				4506EC60214E299100C5238A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotKeyDemo;
+			productName = HotKeyDemo;
+			productReference = 4506EC62214E299200C5238A /* HotKeyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4506EC91214E29F600C5238A /* HotKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4506EC98214E29F600C5238A /* Build configuration list for PBXNativeTarget "HotKey" */;
+			buildPhases = (
+				4506EC8E214E29F600C5238A /* Sources */,
+				4506EC8F214E29F600C5238A /* Frameworks */,
+				4506EC90214E29F600C5238A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotKey;
+			productName = HotKey;
+			productReference = 4506EC92214E29F600C5238A /* libHotKey.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4506EBC2214BF58E00C5238A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Eonil;
+				TargetAttributes = {
+					4506EC61214E299100C5238A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4506EC91214E29F600C5238A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4506EBC5214BF58E00C5238A /* Build configuration list for PBXProject "HotKey" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4506EBC1214BF58E00C5238A;
+			productRefGroup = 4506EBCB214BF58E00C5238A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4506EC91214E29F600C5238A /* HotKey */,
+				4506EC61214E299100C5238A /* HotKeyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4506EC60214E299100C5238A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506EC69214E299400C5238A /* Assets.xcassets in Resources */,
+				4506EC6C214E299400C5238A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4506EC5E214E299100C5238A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506EC67214E299200C5238A /* ViewController.swift in Sources */,
+				4506EC65214E299200C5238A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4506EC8E214E29F600C5238A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4506EC9E214E2AD400C5238A /* Audit.swift in Sources */,
+				4506EC9F214E2AD400C5238A /* KeyCombo.swift in Sources */,
+				4506ECA0214E2AD400C5238A /* HotKey.swift in Sources */,
+				4506EC9D214E2AD400C5238A /* Report.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4506EC6A214E299400C5238A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4506EC6B214E299400C5238A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4506EBEE214BF59000C5238A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4506EBEF214BF59000C5238A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4506EC86214E299500C5238A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotKeyDemo/HotKeyDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				INFOPLIST_FILE = HotKeyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.HotKeyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4506EC87214E299500C5238A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotKeyDemo/HotKeyDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SYA75M63MP;
+				INFOPLIST_FILE = HotKeyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eonil.HotKeyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		4506EC99214E29F600C5238A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4506EC9A214E29F600C5238A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4506EBC5214BF58E00C5238A /* Build configuration list for PBXProject "HotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4506EBEE214BF59000C5238A /* Debug */,
+				4506EBEF214BF59000C5238A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4506EC85214E299500C5238A /* Build configuration list for PBXNativeTarget "HotKeyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4506EC86214E299500C5238A /* Debug */,
+				4506EC87214E299500C5238A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4506EC98214E29F600C5238A /* Build configuration list for PBXNativeTarget "HotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4506EC99214E29F600C5238A /* Debug */,
+				4506EC9A214E29F600C5238A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4506EBC2214BF58E00C5238A /* Project object */;
+}
